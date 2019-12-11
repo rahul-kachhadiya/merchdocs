@@ -200,5 +200,18 @@ _Image Upload Configuration_
 |Maximum Width|Global|Determines the maximum pixel width for the image. When the image is resized, it does not exceed this width. Default: 1920|
 |Maximum Height|Global|Determines the maximum pixel height for the image. When the image is resized, it does not exceed this height. Default: 1200|
 
+## Adobe Stock Integration
+
+![]({% link images/images/system-adobe-stock-integration.png %}){: .zoom}
+_Adobe Stock Integration_
+
+|Field|[Scope]({% link configuration/scope.md %})|Description|
+|--- |--- |--- |
+|Enabled Adobe Stock|Global|Switch that enables or disables the Adobe Stock Integration|
+|API Key (Client ID)|Global|An API key is required to connect your Magento application to the Adobe Stock service. You can get an API key by creating an integration at [console.adobe.io](https://console.adobe.io/).|
+|Client Secret|Global|A Client Secret is required. You can get a Client Secret by creating an integration at [console.adobe.io](https://console.adobe.io/)|
+|Test Connection||Run a test checking that the API key is valid for use with Adobe Stock's service.|
+
+
 [1]: https://en.wikipedia.org/wiki/Sendmail
 [2]: https://magento.com/security/news/new-zend-framework-1-security-vulnerability
