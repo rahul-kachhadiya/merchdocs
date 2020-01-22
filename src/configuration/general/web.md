@@ -61,7 +61,7 @@ Stores > Settings > [Configuration]({% link stores/configuration.md %}) > [Gene
 |Default No-route URL|Store View|Contains the URL of the default page that you want to appear when if a `404 Page not Found` error occurs. The default value is `cms/index/noRoute`.|
 |CMS No Route Page|Store View|Identifies a specific CMS page that you want to appear when a 404 Page Not Found error occurs. The default page is 404 Not Found.|
 |CMS No Cookies Page|Store View|Identifies a specific CMS page that appears when cookies are not enabled for the browser. The page explains why cookies are used, and how to enable them for each browser. The default page is Enable Cookies.|
-|Show Breadcrumbs for CMS Pages|Store View|Determines if a breadcrumb trail appears on all CMS pages in the catalog. Options: Yes / No|
+|Show Breadcrumbs for CMS Pages|Store View|Determines if a breadcrumb trail appears on all CMS pages. Options: Yes / No|
 
 ## Default Layouts
 
